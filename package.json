@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "learning-express",
   "version": "1.0.0",
   "description": "",
@@ -14,3 +15,23 @@
     "express-session": "^1.15.6"
   }
 }
+=======
+  "name": "react-express-learning",
+  "version": "1.0.0",
+  "description": "\"# react-express-learning\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Biccon/react-express-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Biccon/react-express-learning/issues"
+  },
+  "homepage": "https://github.com/Biccon/react-express-learning#readme"
+}
+>>>>>>> e9419668e5862f4fb112bf23854fbcc502c2497a
