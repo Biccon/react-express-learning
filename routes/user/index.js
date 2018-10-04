@@ -1,6 +1,10 @@
-import express from 'express';
-import { users, add } from '../../database';
+import express from 'express'; 
 const router = express.Router();
+
+
+router.get('/list', (req,res)=>{ 
+    res.send(users);
+})
 
 router.get('/:id', (req, res) => {
     const filtered = users.filter((item) => {
@@ -15,10 +19,6 @@ router.get('/add/:name', (req, res) => {
     //register
     const name = req.params.name;
     add(name);
-    res.send(users);
-})
-
-router.get('/list', (req,res)=>{
     res.send(users);
 })
 
